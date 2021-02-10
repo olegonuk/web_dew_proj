@@ -1,4 +1,5 @@
 $(document).ready(function () {
+   $('#toTop').fadeIn();
    /*Portfolio */
    $('.button[filter]').click(function () {
       if ($(this).attr('val') == 'off') {
@@ -55,7 +56,7 @@ $(document).ready(function () {
    });
    /*Button Up */
    $(window).scroll(function () {
-      if ($(this).scrollTop() != 0)
+      if ($(this).scrollTop() > 300)
          $('#toTop').fadeIn();
       else
          $('#toTop').fadeOut();
