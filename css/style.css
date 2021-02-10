@@ -487,6 +487,7 @@ div[filter]:hover .text {
    height: 50px;
    font-size: 25px;
    border: none;
+   background: #00897b;
 }
 @media screen and (min-width: 1400px) {
    .container {
