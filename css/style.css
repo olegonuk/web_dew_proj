@@ -475,6 +475,15 @@ div[filter]:hover .text {
 .menu-icon {
    display: none;
 }
+.menu-icon-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   font-size: 25px;
+   border: none;
+}
 @media screen and (min-width: 1400px) {
    .container {
       max-width: 1320px;
@@ -496,6 +505,7 @@ div[filter]:hover .text {
    }
    .bloc__blog img {
       width: 100%;
+      height: auto;
       max-width: 100%;
    }
    .blog__item a {
@@ -532,11 +542,6 @@ div[filter]:hover .text {
    }
    .menu-icon {
       display: block;
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
-      border: none;
-      background: #00897b;
    }
    .menu__item {
       margin: 10px 0px;
