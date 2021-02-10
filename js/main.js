@@ -52,11 +52,6 @@ $(document).ready(function () {
          'display': 'flex',
          'flex-direction': 'column'
       });
-      if ($('.menu-icon').html() == '<i class="fas fa-bars"></i>') {
-         $(this).html('<i class="fas fa-times"></i>');
-      } else {
-         $(this).html('<i class="fas fa-bars"></i>');
-      }
    });
    /*Button Up */
    $(window).scroll(function () {
