@@ -298,6 +298,10 @@ div[filter]:hover .text {
    margin: 0 5px;
    outline: none;
 }
+.block__team img {
+   width: 100%;
+   height: auto;
+}
 .block__team h4 {
    margin-top: 30px;
    font-size: 20px;
